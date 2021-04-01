@@ -1,0 +1,403 @@
+@charset 'utf-8';
+@import url('common.css');
+*{color:#ddd;}
+
+
+main{}
+h1{
+    font-family: Constantia;
+    font-size: 120px;
+    color:#fff;
+    text-align: center;
+    margin:50px 0;
+}
+
+.perfume-main{
+    padding:0 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:200px;
+}
+.perfume-main div{
+    width:400px; height:650px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.perfume-main div h2{
+    width:100%;
+    font-family: Constantia;
+    font-size:50px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left:0; top:30%;
+    z-index:30;
+    transition: .4s;
+}
+.perfume-main div:nth-of-type(2) h2{
+    top:40%;
+}
+.perfume-main div:hover h2{top:20%;}
+.perfume-main div:hover p{opacity:1;}
+.perfume-main div p{
+    position: absolute;
+    margin:0 auto;
+    width:100%;
+    padding:0 10%;
+    text-align: center;
+    line-height: 1.8;
+    transition:.6s;
+    left:0; bottom:-18%;
+    z-index:30;
+    white-space: pre-line;
+    opacity:0;
+}
+.perfume-main div:hover p{
+    bottom:40%;
+}
+.perfume-main div video{
+    width:100%; height:650px;
+    opacity:0.5;
+    z-index: -111;
+}
+
+/* spots */
+.regular{
+    width:100%;
+    margin-bottom:150px;
+}
+.main-slide section{
+    width:100%; height:90vh;
+}
+.rose{ background:url('../imgs/perfume/rose/main.jpg')  center center / cover; }
+.sauvage{ background: url('../imgs/perfume/sauvage/sauvage-main.jpg')  center center / cover; }
+.homme{  background:url('../imgs/perfume/homme/main.jpg')  center center / cover; }
+
+
+
+.detail{
+    display:flex;
+    justify-content: center;
+}
+.detail figure h2{
+    color:#fff;
+    font-family: Constantia;
+    font-size: 100px;
+    width: 100%;
+    font-weight:normal;
+    text-align: center;
+    margin-bottom:50px;
+}
+.detail figure{
+    padding:20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.detail figure figcaption{
+    width: 100%;
+    padding:0 100px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2;
+}
+.detail figure div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail figure div p{
+    text-align:center;
+    width:200px;
+}
+.detail figure div p:nth-of-type(2){
+    height:70px;
+    mix-blend-mode: multiply;
+}
+
+
+
+.product{}
+.product > ul{
+    display: flex;
+    justify-content: space-between;
+    padding:0 100px;
+}
+.product > ul > li{
+    width: 330px;
+    text-align: center;
+}
+.product > ul > li p img{transition: .5s;}
+.product > ul > li:hover > p img{
+    transform:scale(1.2);
+}
+.product ul li p{overflow: hidden;}
+.product ul li p:nth-of-type(1){}
+.product ul li > p:nth-of-type(2){
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+
+.product ul li .intensity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:20px;
+}
+.product ul li .intensity span{
+    font-size:20px;
+    margin-right:30px;
+    text-align: center;
+}
+.product ul li .intensity ul{
+    display: flex;
+}
+.intensity ul li{
+    width:12px; height:12px;
+    background: #ddd;
+    border-radius:100%;
+    margin-left:10px;
+}
+.product ul li p{
+    margin-top:30px;
+    color:#eee;
+    
+}
+.product ul li a:after{
+    content:'';
+    display: inline-block;
+    background:url('../imgs/perfume/arrow1.png') center center no-repeat;
+    width:20px; height:15px;
+}
+
+.pro_detail{display:none;}
+.pro_detail p{
+    opacity: 0;
+    transition: .5s;
+    white-space: pre-line;
+    line-height: 1.6;
+}
+.pro_detail p:nth-of-type(1){
+    width:150px; height:150px;
+    margin:20px auto;
+    
+}
+.product > ul > li:hover .pro_detail p{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:480px) {
+
+    main{}
+    h1{
+        font-family: Constantia;
+        font-size: 80px;
+        color:#fff;
+        text-align: center;
+        margin:30x 0;
+        padding-top:30px;
+    }
+    
+    .perfume-main{
+        padding:0;
+        display: block;
+        justify-content: space-between;
+        margin-bottom:200px;
+    }
+    .perfume-main div{
+        width:90%; height:650px;
+        position: relative;
+        text-align: center;
+        overflow: hidden;
+
+        
+        margin:0 auto;
+    }
+    
+    .perfume-main div h2{
+        width:100%;
+        font-family: Constantia;
+        font-size:50px;
+        font-weight: bold;
+        color: #fff;
+        position: absolute;
+        left:0; top:30%;
+        z-index:30;
+        transition: .4s;
+    }
+    .perfume-main div:nth-of-type(2) h2{
+        top:40%;
+    }
+    .perfume-main div:hover h2{top:20%;}
+    .perfume-main div p{
+        position: absolute;
+        margin:0 auto;
+        width:100%;
+        padding:0 10%;
+        text-align: center;
+        line-height: 1.8;
+        transition:.6s;
+        left:0; bottom:-18%;
+        z-index:30;
+        white-space: pre-line;
+    }
+    .perfume-main div:hover p{
+        bottom:40%;
+    }
+    .perfume-main div video{
+        width:100%; height:650px;
+        opacity:0.5;
+        z-index: -111;
+    }
+    
+    
+    .rose{
+        padding:0 15%;
+        margin-bottom:150px;
+        background:url('../imgs/perfume/rose/main.jpg')  no-repeat;
+    }
+    .sauvage{
+        padding:0 15%;
+        margin:150px 0;
+        background: url('../imgs/perfume/sauvage/sauvage-main.jpg')  no-repeat;
+    }
+    .homme{
+        padding:0 15%;
+        margin:150px 0;
+        background:url('../imgs/perfume/homme/main.jpg')  no-repeat;
+    }
+    
+    
+    
+    .detail{
+        display:flex;
+        justify-content: center;
+    }
+    .detail figure h2{
+        color:#fff;
+        font-family: Constantia;
+        font-size: 70px;
+        width: 100%;
+        font-weight:normal;
+        text-align: center;
+        margin-bottom:50px;
+    }
+    .detail figure{
+        padding:20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .detail figure figcaption{
+        width: 100%;
+        padding:0;
+        text-align: center;
+        font-size: 18px;
+        line-height: 2;
+    }
+    .detail figure div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .detail figure div p{
+        text-align:center;
+        width:200px;
+    }
+    .detail figure div p:nth-of-type(2){
+        height:70px;
+        mix-blend-mode: multiply;
+    }
+    
+    
+    
+    .product{}
+    .product > ul{
+        display: flex;
+        justify-content: space-between;
+        padding:0;
+
+        
+        overflow: hidden;
+    }
+    .product > ul > li{
+        width: 100%;
+        text-align: center;
+
+
+        margin-right:5%;
+    }
+    .product ul li p{}
+    .product ul li p:nth-of-type(1){}
+    .product ul li p:nth-of-type(2){
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom:20px;
+    }
+    .product ul li .intensity{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:20px;
+    }
+    .product ul li .intensity span{
+        font-size:20px;
+        margin-right:30px;
+        text-align: center;
+    }
+    .product ul li .intensity ul{
+        display: flex;
+    }
+    .intensity ul li{
+        width:12px; height:12px;
+        background: #ddd;
+        border-radius:100%;
+        margin-left:10px;
+    }
+    .product ul li p{
+        margin-top:30px;
+        color:#eee;
+    }
+    .product ul li a:after{
+        content:'';
+        display: inline-block;
+        background:url('../imgs/perfume/arrow1.png') center center no-repeat;
+        width:20px; height:15px;
+    }
+    
+    .pro_detail{}
+    .pro_detail p{
+        display:none;
+    }
+    .pro_detail:hover p{
+        display: block;
+    }
+    .pro_detail a{}
+    .pro_detail a:hover {}
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+
