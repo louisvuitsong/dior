@@ -1,0 +1,231 @@
+{
+    "bagMain":[
+        {
+            "title": "HAND BAGS",
+            "imgSrc": "imgs/bags/aa.webp",
+            "detail": "“의상과 마찬가지로, 백에도 신경을 써야 합니다.” 크리스챤 디올은 자신의 패션 소사전에서 이렇게 조언했습니다. 하우스의 뛰어난 노하우와 독창성이 반영된 디올 백은 디자이너의 우아함에 대한 비전을 끊임없이 계승하며 룩에 마지막 터치를 더하여 완벽한 실루엣을 완성해주고 있습니다."
+        },
+        {
+            "title": "TOTE BAGS",
+            "imgSrc": "imgs/bags/bb.jpg",
+            "detail": "“디올 하우스의 노하우가 돋보이는 마리아 그라치아 치우리(Maria Grazia Chiuri)의 Dior Book Tote 카바백이 다채로운 컬러와 모티브로 출시되어, 캐주얼하면서도 세련된 스타일을 선사합니다."
+        },
+        {
+            "title": "MINI BAGS",
+            "imgSrc": "imgs/bags/cc.webp",
+            "detail": "Lady Dior는 시대를 초월한 우아함을 상징하는 패션 아이콘입니다. 까나쥬 모티브와 둥근 핸들의 부드러운 양가죽으로 제작된 이 클래식 백은 오늘날 현대 여성을 위해 재치있는 참과 넓은 어깨 끈으로 재현됩니다."
+        }
+    ],
+
+    "handBags":[
+        {
+            "title" : "SADDLE 백",
+            "imgSrc" : "imgs/bags/hand/saddle.jpg",
+            "detail" : "클라우드 블루 유광 염소가죽",
+            "price" : "₩4,150,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "hand01",
+            "detailImg1" : "imgs/bags/test/saddle1.webp",
+            "detailImg2" : "imgs/bags/test/saddle2.webp",
+            "detailImg3" : "imgs/bags/test/saddle3.webp"
+        },
+        {
+            "title" : "LADY D-LITE 미디엄 백",
+            "imgSrc" : "imgs/bags/hand/d-lite.jpg",
+            "detail" : "블루 까나쥬 자수 벨벳",
+            "price" : "₩4,450,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "hand02"
+        },
+        {
+            "title" : "ST HONORE 미디엄 카바백",
+            "imgSrc" : "imgs/bags/hand/sthonore2.jpg",
+            "detail" : "베이지 그레인 송아지 가죽",
+            "price" : "₩5,700,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "hand03"
+        },
+        {
+            "title" : "SADDLE 백",
+            "imgSrc" : "imgs/bags/hand/saddle-blue.jpg",
+            "detail" : "블루 Dior Oblique 자수",
+            "price" : "₩4,650,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "hand04"
+        },
+        {
+            "title" : "DIOR CARO 라지 백",
+            "imgSrc" : "imgs/bags/hand/caro.jpg",
+            "detail" : "블랙 까나쥬 소프트 송아지 가죽",
+            "price" : "₩5,900,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "hand05"
+        },
+        {
+            "title" : "LADY D-LITE 미디엄 백",
+            "imgSrc" : "imgs/bags/hand/hibis.jpg",
+            "detail" : " 베이지 멀티 컬러 Dior Hibiscus 메탈릭 스레드 자수",
+            "price" : "₩6,600,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "hand06"
+        },
+        {
+            "title" : "DIOR BOBBY 라지 백",
+            "imgSrc" : "imgs/bags/hand/bobby.jpg",
+            "detail" : "블랙 복스 송아지 가죽 & 블루 Dior Oblique 자수 스트랩",
+            "price" : "₩5,200,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "hand07"
+        }
+    ],
+    "toteBags":[
+        {
+            "title" : "SADDLE 백",
+            "imgSrc" : "imgs/bags/tote/1.webp",
+            "detail" : "클라우드 블루 유광 염소가죽",
+            "price" : "₩4,150,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote01"
+        },
+        {
+            "title" : "LADY D-LITE 미디엄 백",
+            "imgSrc" : "imgs/bags/tote/2.webp",
+            "detail" : "블루 까나쥬 자수 벨벳",
+            "price" : "₩6,400,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote02"
+        },
+        {
+            "title" : "ST HONORE 미디엄 카바백",
+            "imgSrc" : "imgs/bags/tote/3.webp",
+            "detail" : "베이지 그레인 송아지 가죽",
+            "price" : "₩5,700,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote03"
+        },
+        {
+            "title" : "SADDLE 백",
+            "imgSrc" : "imgs/bags/tote/4.webp",
+            "detail" : "블루 Dior Oblique 자수",
+            "price" : "₩4,650,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote04"
+        },
+        {
+            "title" : "DIOR CARO 라지 백",
+            "imgSrc" : "imgs/bags/tote/5.webp",
+            "detail" : "블랙 까나쥬 소프트 송아지 가죽",
+            "price" : "₩5,900,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote05"
+        },
+        {
+            "title" : "LADY D-LITE 미디엄 백",
+            "imgSrc" : "imgs/bags/tote/6.webp",
+            "detail" : " 베이지 멀티 컬러 Dior Hibiscus 메탈릭 스레드 자수",
+            "price" : "₩6,600,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote06"
+        },
+        {
+            "title" : "DIOR BOBBY 라지 백",
+            "imgSrc" : "imgs/bags/tote/7.webp",
+            "detail" : "블랙 복스 송아지 가죽 & 블루 Dior Oblique 자수 스트랩",
+            "price" : "₩5,200,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote07"
+        },
+        {
+            "title" : "imgs/bags/tote/8.webp",
+            "imgSrc" : "imgs/bags/tote/7.webp",
+            "detail" : "블랙 복스 송아지 가죽 & 블루 Dior Oblique 자수 스트랩",
+            "price" : "₩5,200,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote08"
+        },
+        {
+            "title" : "imgs/bags/tote/9.webp",
+            "imgSrc" : "imgs/bags/tote/7.webp",
+            "detail" : "블랙 복스 송아지 가죽 & 블루 Dior Oblique 자수 스트랩",
+            "price" : "₩5,200,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote09"
+        }
+    ],
+    "miniBags":[
+        {
+            "title" : "SADDLE 백",
+            "imgSrc" : "imgs/bags/mini/1.webp",
+            "detail" : "클라우드 블루 유광 염소가죽",
+            "price" : "₩4,150,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote01"
+        },
+        {
+            "title" : "LADY D-LITE 미디엄 백",
+            "imgSrc" : "imgs/bags/mini/2.webp",
+            "detail" : "블루 까나쥬 자수 벨벳",
+            "price" : "₩6,400,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote02"
+        },
+        {
+            "title" : "ST HONORE 미디엄 카바백",
+            "imgSrc" : "imgs/bags/mini/3.jpg",
+            "detail" : "베이지 그레인 송아지 가죽",
+            "price" : "₩5,700,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote03"
+        },
+        {
+            "title" : "SADDLE 백",
+            "imgSrc" : "imgs/bags/mini/4.webp",
+            "detail" : "블루 Dior Oblique 자수",
+            "price" : "₩4,650,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote04"
+        },
+        {
+            "title" : "DIOR CARO 라지 백",
+            "imgSrc" : "imgs/bags/mini/5.webp",
+            "detail" : "블랙 까나쥬 소프트 송아지 가죽",
+            "price" : "₩5,900,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote05"
+        },
+        {
+            "title" : "LADY D-LITE 미디엄 백",
+            "imgSrc" : "imgs/bags/mini/6.webp",
+            "detail" : " 베이지 멀티 컬러 Dior Hibiscus 메탈릭 스레드 자수",
+            "price" : "₩6,600,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote06"
+        },
+        {
+            "title" : "DIOR BOBBY 라지 백",
+            "imgSrc" : "imgs/bags/mini/7.webp",
+            "detail" : "블랙 복스 송아지 가죽 & 블루 Dior Oblique 자수 스트랩",
+            "price" : "₩5,200,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote07"
+        },
+        {
+            "title" : "diro",
+            "imgSrc" : "imgs/bags/mini/8.webp",
+            "detail" : "블랙 복스 송아지 가죽 & 블루 Dior Oblique 자수 스트랩",
+            "price" : "₩5,200,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote08"
+        },
+        {
+            "title" : "imgs/bags/mini/9.webp",
+            "imgSrc" : "imgs/bags/tote/7.webp",
+            "detail" : "블랙 복스 송아지 가죽 & 블루 Dior Oblique 자수 스트랩",
+            "price" : "₩5,200,000",
+            "qrImgSrc" : "imgs/perfume/sauvage/qr/1.png",
+            "alt" : "tote09"
+        }
+    ]
+
+
+}
