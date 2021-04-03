@@ -1,7 +1,7 @@
 $(function(){
 
     $.ajax({
-        url:'data.json',
+        url:'../data/data.json',
         success:function(data){
             
             var title, imgSrc, detail, tagList='';
@@ -103,10 +103,11 @@ $(function(){
                     var detailImg1, detailImg2, detailImg3, state;
                     var proTitle, proMade, proNum, proPrice, proExp;
                     var li1, li2, li3, li4, li5, li6, li7, li8;
+
                     //product-detail popUp
                     $('.product figure').on('click',function(){
                         if(state == 'drag') return false;
-                        
+                        console.log('ad')
                         var idx = $(this).index();
                         detailImg1 = db.toteDetail[idx].detailImg1;
                         detailImg2 = db.toteDetail[idx].detailImg2;
@@ -152,38 +153,20 @@ $(function(){
                      //product slide
                     $('.product').draggable({
                         axis:'x',
-                        start:function(){
-                           
-                        },
-                        drag:function(){
-                           
-                        },
+                        start:function(){},
+                        drag:function(){},
                         stop:function(){
                             state = 'drag';
                             setTimeout(function(){ state = ''; },50);
-                            
                         }
                     });
                 }
             });
-
-
-
-           
-
-
             }
         });
 
-        $('.product-pop .menu-trigger').on('click',function(){
+        $('.product-pop .pop-trigger').on('click',function(){
             $('.product-pop').removeClass('active');
-    });
-    
-
-    
-
-
-    
-
+        });
 
 });

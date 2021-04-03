@@ -162,27 +162,38 @@ main{}
 .shopping .product-pop .pop-imgs > div img{
     width:49.5%; height: 100%;
 }
+
 /* trigger */
 
-.shopping .menu-trigger{
+.shopping .pop-trigger{
     position:fixed;
+    width:50px; height:50px;
     z-index: 96;
-    right:10%; top:12%;
+    right:9%; top:10.5%;
     transition:.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.shopping .menu-trigger:hover{
+.shopping .pop-trigger span{
+    display:block;
+    width:25px; height:3px;
+    background-color:#000;
+}
+.shopping .pop-trigger:hover{
     transform:scale(1.2);
 }
-.shopping .menu-trigger span{
+.shopping .pop-trigger span{
     background: #000;
 }
+.shopping .pop-trigger span:nth-of-type(1) {
+	transform: translateX(12px) /* translateY(15px) */ rotate(-45deg);
+}
+.shopping .pop-trigger span:nth-of-type(2) {
+	transform: translateX(-12px) /* translateY(12px) */ rotate(45deg);
+}
 
-.shopping .menu-trigger span:nth-of-type(1) {
-	transform: translateY(4px) rotate(-45deg);
-}
-.shopping .menu-trigger span:nth-of-type(2) {
-	transform: translateY(-4px) rotate(45deg);
-}
+
 /* .pop-detail */
 .shopping .product-pop .pop-detail{
     width:43%;

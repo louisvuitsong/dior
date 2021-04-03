@@ -41,12 +41,13 @@ header{
 .coll_main p:nth-of-type(2){
     width:20px; height:40px;
     margin: 0 auto;
-    animation: wheeldown 1s infinite;
+    animation: wheeldown 1.5s ease infinite;
     opacity: 0.8;
 }
 @keyframes wheeldown {
     0%{transform:translate(0,-5px);}
-    100%{transform:translate(0,20px);}
+    50%{transform:translate(0,20px);}
+    100%{transform:translate(0,-5px);}
 }
 
 
