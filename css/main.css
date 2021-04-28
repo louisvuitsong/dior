@@ -79,7 +79,7 @@
 }
 .slidewrap ul .perfume article .title > p{
     font-size:120px;
-    font-family: "Vanity-LightWide";
+    font-family: "Vanity-Bold.ttf";
     /* font-weight: bold; */
     z-index: 10;
 }
@@ -113,13 +113,16 @@
 }
 .slidewrap ul .bags article .title > p{
     font-size:120px;
-    font-family: "Vanity-LightWide";
+    /* font-family:'Zefani_Uppercase_Demo-Regular'; */
+    font-family: "Vanity-Bold.ttf";
+    /* font-weight: bold; */
     z-index: 10;
 }
 .slidewrap ul .bags article > p{
     position:absolute;
     width:25%;
     margin:0 auto;
+    /* font-family:'Zefani_Uppercase_Demo-Regular'; */
     top:40%; left:7.5%;
     font-size: 16px;
     z-index: 10;
@@ -145,7 +148,7 @@
 .slidewrap ul .collection article .title > p{
     font-size:120px;
     /* font-family:'Zefani_Uppercase_Demo-Regular'; */
-    font-family: "Vanity-LightWide";
+    font-family: "Vanity-Bold.ttf";
     /* font-weight: bold; */
     z-index: 10;
 }

@@ -1,7 +1,6 @@
 $(function(){
     
-    //Mouse wheel Slide
-    let delta, loop, num=0;
+    var delta, loop, num=0;
     $('.slidewrap').on('mousewheel DOMMouseScroll',function(e){
         delta = e.originalEvent.wheelDelta || -e.originalEvent.detail;
 
@@ -12,9 +11,9 @@ $(function(){
                 if(num < 2) num++;
             }else{
                 //up
-                 if(num > 0) num--;    
+                 if(num > 0) num--;
+                
             }
-
             $('.slidelist').css({
                 transform:'translateX(' + -num +'00%)'
             });
@@ -30,19 +29,22 @@ $(function(){
                 $('.indicater div span').text('Collection');
             }
         },100)
+       
     });
 
     
-    let indi=0, indiNum=0;
-    const slidelistLi = document.querySelectorAll('.slidelist li');
-    const indiDiv = document.querySelector('.indicater div');
+    var indi=0, indiNum=0;
+    var slidelistLi = document.querySelectorAll('.slidelist li');
+    var indiDiv = document.querySelector('.indicater div');
     const indiPoint = document.querySelectorAll('.indicater div a');
-    const slideUl = document.querySelector('.slidelist');
-    const indiArrow = document.querySelectorAll('.indicater > a');
+    var slideUl = document.querySelector('.slidelist');
+    var indiArrow = document.querySelectorAll('.indicater > a');
     const locator = document.querySelector('.indicater div sapn');
 
+    
     indiPoint.forEach(function(e){
         e.addEventListener('click',function(){
+
             indi = $(this).index();
             slideUl.style = `transform:translateX(${indi*-100}%)`;
 
@@ -59,8 +61,10 @@ $(function(){
             }
         });
     });
-});
-/* indiPoint[0].addEventListener('click',function(){
+
+
+
+    /* indiPoint[0].addEventListener('click',function(){
         slideUl.style = `transform:translateX(0%)`;
         this.classList.add('active');
     });
@@ -85,3 +89,7 @@ $(function(){
     //     $('.indicater div a').eq(indiNum).addClass('active');
     //     slideUl.style = `transform:translateX(-${indiNum*100}%)`;
     // });
+   
+  
+
+});

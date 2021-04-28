@@ -13,7 +13,7 @@
     font-display: swap;
 }
 @font-face {
-    font-family: "Vanity-LightWide";
+    font-family: "Vanity-Bold.ttf";
     src: url('../font/Vanity-LightWide.ttf') format("woff2");
     /* font-weight: 300; */
     /* font-style: normal; */
@@ -27,7 +27,6 @@ ul,li{list-style: none; margin:0; padding:0;}
 *{
     box-sizing: border-box;
     font-family: NanumMyeongjo;
-    /* font-family: 'Open Sans', sans-serif; */
 }
 img{width: 100%; vertical-align: top;}
 a{text-decoration: none;}
@@ -75,6 +74,7 @@ header{
     opacity: 0;
 }
 .menu .nav.active{ top:7%; opacity: 1;}
+.menu:hover .menu-trigger{transform: translateX(100px);}
 
 .nav ul{}
 .nav ul li{margin:20px 0;}
@@ -87,14 +87,11 @@ header{
 .nav ul li:hover a{color:#fff; text-decoration: line-through;}
 
 .menu-trigger{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 35px; height: 100%;
+    width:70px; height:70px;
 }
 .menu-trigger span{
     display:block;
-    width:100%; height:3px;
+    width:18px; height:3px;
     background:#fff;
     /* margin-bottom:5px; */
     transition:.4s;
@@ -103,20 +100,20 @@ header{
 
 
 .menu-trigger span:nth-of-type(1) {
-	transform: translateX(3px) rotate(45deg);
+	transform: translateX(-8px)  translateY(10px) rotate(45deg);
 }
 .menu-trigger span:nth-of-type(2) {
-	transform: translateX(-3px) rotate(-45deg);
+	transform: translateX(4px)  translateY(7px) rotate(-45deg);
 }
 
 /* active */
 .menu-trigger.active span:nth-of-type(1) {
-	transform: translateX(3px) rotate(-45deg);
+	transform: translateX(-8px)  translateY(10px) rotate(-45deg);
 }
 
 
 .menu-trigger.active span:nth-of-type(2) {
-	transform: translateX(-3px) rotate(45deg);
+	transform: translateX(4px)  translateY(7px) rotate(45deg);
 }
 
 
