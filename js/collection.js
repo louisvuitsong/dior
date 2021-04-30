@@ -1,63 +1,42 @@
-$(function(){
-    //plus icon
-    $('.plus').on('click',function(){
-        $('.plus p').slideToggle(500);
-    });
-    
 
+//slide toggle
+$('.plus').on('click',function(){
+    $('.plus p').slideToggle(500);
+});
 
+//image push
+let tagList = '';
+for( let i=1; i<45; i++ ){
+    tagList += "<li><img src='imgs/collection/model/look-" + i + "_width_3000.jpg' alt='model'></li>";
+}
+$('.looks ul').append(tagList);
 
-    //looks img li
-    var tagList ='';
-    for( var i=1; i<45; i++ ){
-        tagList += "<li><img src='imgs/collection/model/look-" + i + "_width_3000.jpg' alt='model'></li>";
-    }
-    $('.looks ul').append(tagList);
+//slick slide
+$('.regular').slick({
+    dots: false,
+    infinite: false,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    autoplay: false,
+    autoplaySpeed: 2000,
+    arrows: true,
 
+    // fade:true,
+    // speed:1000
 
-    $(".regular").slick({
-        dots: false,
-        infinite: false,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        autoplay: false,
-        autoplaySpeed: 2000,
-        arrows: true,
-  
-        // fade:true,
-        // speed:1000
-  
-        // centerMode: true,
-        // vertical: true
-    });
-  
-    $('.regular').on({
-    'beforeChange': function (event, slick, currentSlide, nextSlide) {
-        console.log('before');
-    },
-    'afterChange': function (slick, currentSlide) {
-        console.log('after');
-    }
+    // centerMode: true,
+    // vertical: true
+});
 
-    });
-
-
-    $('.looks li img').on('click',function(e){
-        var imgSrc = $(this).attr('src');
-        $('.looks-pop').addClass('active');
-        $('.looks-pop p img').attr('src', imgSrc);
-    });
-    $('.looks-pop').on('click',function(){
-        $('.looks-pop').removeClass('active');
-    });
-
-
-
-
-
-
-
-
+//Image popup
+$('.looks li img').on('click',function(e){
+    const imgSrc = $(this).attr('src');
+    $('.looks-pop').addClass('active');
+    $('.looks-pop p img').attr('src', imgSrc);
+});
+$('.looks-pop').on('click',function(){
+    $('.looks-pop').removeClass('active');
+});
 
 
 /* //looks drag
@@ -101,4 +80,3 @@ $(function(){
         }
         $('.looks ul').animate({left: -100 * num + '%'});
     }); */
-});
